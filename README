@@ -1,1 +1,14 @@
-A few nifty Java programs.
+Goth Pomo, or Goth Pomodoro, is my attempt at making a pomodoro timer... with style!
+
+## It works just like any simple pomodoro program:
+-Set the focus time
+-Set the break time
+-Begin studying!
+
+## To install and run:
+sudo apt install openjdk-11-jdk (If you haven't installed the JDK yet, You will need this to run the program)
+git clone https://github.com/heinekenhedgehog/GothPomo.git && cd GothPomo/
+javac gothpomo
+javac PomodoroTimer.java 
+java PomodoroTimer
+
